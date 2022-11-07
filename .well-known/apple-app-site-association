@@ -1,0 +1,24 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "6KX3DM9B29.com.wzc.im",
+                "paths": ["*"]
+            },
+            {
+                "appID": "ZBH92875G9.com.wzc.im",
+                "paths": ["*"]
+            },
+            {
+                "appID": "6KX3DM9B29.com.wzc.GomeDemo",
+                "paths": ["*"]
+            },
+            {
+                "appID": "ZBH92875G9.com.wzc.GomeDemo",
+                "paths": ["/a/b","/c/*"]
+            }
+        ]
+    }
+}
+
