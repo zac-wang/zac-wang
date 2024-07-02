@@ -17,6 +17,12 @@
             {
                 "appID": "ZBH92875G9.com.wzc.GomeDemo",
                 "paths": ["/a/b","/c/*"]
+            },
+            {
+                "appID": "ML9BS8L9GR.com.founder.xiangyu",
+                "paths": [
+                    "*"
+                ]
             }
         ]
     }

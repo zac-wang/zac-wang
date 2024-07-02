@@ -1,1 +1,10 @@
+# 要求JeKyll处理该目录下的文件
+include: [".well-known"]
+
+# 排除某些文件或目录
+exclude:
+  - my-code/*
+
+
+
 theme: jekyll-theme-cayman
