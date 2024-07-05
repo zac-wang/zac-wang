@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+    <meta charset="UTF-8">
+  <title>测试鸿蒙Applinking</title>
+  </head>
+  <body>
+    <center>
+      <h3>
+      	a<br>
+        <a href='https://ali.drcn.agconnect.link/A'>https://ali.drcn.agconnect.link/A</h1><br>
+        <a href='https://ali.drcn.agconnect.link/Ali'>https://ali.drcn.agconnect.link/Ali</h1><br>
+        <a href='https://ios.drcn.agconnect.link/z'>https://ios.drcn.agconnect.link/z</h1><br>
+        <a href='https://zac-wang.github.io/AppLinkingTest.html'>https://zac-wang.github.io/AppLinkingTest.html</h1><br>
+        <a href='https://zac-wang.github.io/index.html'>https://zac-wang.github.io/index.html</h1><br>
+        <a href='https://zac-wang.github.io'>https://zac-wang.github.io</h1><br>
+        
+
+        <br><br>button<br>
+        <button onclick="redirect()">https://zac-wang.github.io</button><br>
+        <button type="deep link" onclick="goToLink()">deep link</button><br>
+      </h3>
+    </center>
+  </body>
+  <script>
+    function redirect() {
+      // window.location.assign('https://www.example.com');
+      window.location.href="https://zac-wang.github.io/AppLinkingTest.html?referrer=utm_campaign%3D%E5%8D%8E%E4%B8%BA%E4%BA%8C%E7%BB%B4%E7%A0%81%26utm_source%3DHuaWeiQR"
+    }
+    function goToLink() {
+      window.open('what://zac-wang.github.io/')
+    }
+  </script>
+</html>
